@@ -11,6 +11,8 @@ function AddTeam({ onTeamAdded }) {
     onTeamAdded();
   };
 
+
+  
   return (
     <form onSubmit={handleSubmit}>
       <input
